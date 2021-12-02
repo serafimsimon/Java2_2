@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class MyArrayDataExeption {
+public class MyArrayDataExeption extends RuntimeException{
+
+    public MyArrayDataExeption(String message) {
+        super(message);
+    }
+
+
 }
