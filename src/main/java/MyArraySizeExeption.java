@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class MyArraySizeExeption {
+public class MyArraySizeExeption extends RuntimeException {
+
+    public MyArraySizeExeption(String message) {
+        super(message);
+    }
+
+
 }
